@@ -1,4 +1,5 @@
 import './App.css';
+import ClickEventWithButton from './Components/ClickEventWithButton';
 import Contact from './Components/Contact';
 import FirstTestCase from './Components/FirstTestCase';
 import InputBox from './Components/InputBox';
@@ -11,6 +12,7 @@ function App() {
       <FirstTestCase/>
       <InputBox/>
       <InputBoxOnState/>
+      <ClickEventWithButton/>
     </div>
   );
 }
