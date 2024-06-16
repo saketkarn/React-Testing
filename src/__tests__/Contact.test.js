@@ -35,4 +35,10 @@ describe("Contact Us Page test cases",()=>{
         //Assertion would be the below line
         expect(inputBoxes.length).toBe(2)
     })
+
+    test("Should load the message input field",()=>{
+        render(<Contact/>)
+        let testButton=screen.getByRole("button",{name:"Test"})
+        expect(testButton).toBeInTheDocument()
+    })
 })
