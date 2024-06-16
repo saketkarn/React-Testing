@@ -31,6 +31,6 @@ test("Should load 2 input boxes in contact page",()=>{
     //Querying
     const inputBoxes=screen.getAllByRole("textbox")
 
-    //Assertion
+    //Assertion would be the below line
     expect(inputBoxes.length).toBe(2)
 })
