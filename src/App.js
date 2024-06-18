@@ -7,6 +7,7 @@ import InputBoxOnState from './Components/InputBoxOnState'
 import MultipleButtons from './Components/MultipleButtons';
 import SnapshotComponent from './Components/SnapshotComponent';
 import Label from './Components/Label';
+import MultipleLabelAndCheckboxes from './Components/MultipleLabelAndCheckboxes';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <SnapshotComponent/>
       <MultipleButtons/>
       <Label/>
+      <MultipleLabelAndCheckboxes/>
     </div>
   );
 }
